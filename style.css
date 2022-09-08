@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:ital,wght@0,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, .n-price {
+    color:hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+}
+
+h2, p {
+    
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-size: 14px;
+    transition: 1s;
+    
+}
+
+h2:hover {
+    letter-spacing: 9px;
+    color: linear-gradient(90deg, rgba(97,204,23,1) 0%, rgba(51,122,8,1) 35%, rgba(17,120,0,1) 100%);;
+}
+
+
+h1 {
+    transition: 1s;
+}
+h1:hover {
+    color:hsl(212, 21%, 14%);
+}
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:5rem 5rem 5rem 5rem;
+}
+
+.grid-box {
+    background-color: white;
+    width: 768px;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 26px;
+    overflow: hidden;
+}
+.content {
+    width: 100%;
+    padding: 3rem 3rem 3rem 3rem;
+}
+
+.img img {
+    width: 100%;
+    
+}
+.img {
+    transition: 1s;
+}
+.img:hover {
+    transform: scale(1.2) translateX(-30px);
+    overflow: visible;
+    display: flex;
+    
+}
+
+h1, h2 , p {
+    margin-bottom: 1rem;
+}
+.price {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+.price .n-price{
+   font-size: 24px;
+   padding-right: 1.2rem;
+   transition: 0.5s;
+}
+
+.price .n-price:hover {
+    font-size: 30px;
+}
+
+
+.price .o-price{
+    text-decoration: line-through;
+}
+
+
+.btn {
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    margin-top: 3rem;
+    width: 100%;
+    height: 7vh;
+    border-radius: 26px;
+    color: white;
+    transition: 0.5s;
+}
+
+.btn:hover {
+background-color: white;
+border: 2px solid hsl(158, 36%, 37%);
+color: hsl(158, 36%, 37%);
+text-align: center;
+padding-right: 2rem;
+} 
+
+
+.btn img {
+    padding-right: 1rem;
+}
+
+.btn img:hover {
+    display: none;
+
+}
+
+
+
+
+
+
